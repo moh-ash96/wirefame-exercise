@@ -1,0 +1,114 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+header{
+    height: 102px;
+    background-color:#3B3E47 ;
+    border: 5px;
+    padding-left: 258px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin-top: 11px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+
+    
+}
+nav{
+display: inline-block;
+position: relative;
+bottom: 60px;
+border-top: 10px;
+padding-right: 50px;
+
+}
+header img{
+    border-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px
+    
+}
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    
+    
+}
+ul li a{
+    color: #bdbdbd;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#sect1 img{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    margin-top: 10px;
+    /* margin-left: 70px; */
+    text-align: center;
+    position:relative;
+}
+#sect2{
+    margin-left: 10px;
+    /* display: inline-block; */
+}
+#sect2 img{
+   float: left;
+   margin-left: 282px;
+   margin-right: 40px;
+}
+p{
+    overflow: scroll;
+    font-size: 28px;
+    margin-right: 196px;
+    height: 360px;
+}
+button{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 10px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: blanchedalmond;
+    color: blue;
+}
+footer{
+    background-color: #3B3E47;
+    clear: both;
+    padding: 40px;
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+
+
